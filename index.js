@@ -1,15 +1,21 @@
 
 var React = require('react');
 
-$ You can now view my-react-app-name in the browser.
 
-$ Local:            http://localhost:3000/
-$ On Your Network:  http://192.168.0.105:3000/
+# install react cli
+npm install -g create-react-app
 
-$ Note that the development build is not optimized.
-$ To create a production build, use npm build.
+# create app
+create-react-app my-react-app-name
 
+# go to project folder
+cd my-react-app-name
 
+# install dependencies
+npm install
+
+# start live server
+npm start
 
 const StockSocket = require("stocksocket");
 
