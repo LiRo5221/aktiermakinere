@@ -2,5 +2,23 @@
   "dependencies": {
     "next": "^12.1.0",
     "stocksocket": "^2.1.2"
-  }
+  },
+  "name": "aktiermakinere",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiRo5221/aktiermakinere.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiRo5221/aktiermakinere/issues"
+  },
+  "homepage": "https://github.com/LiRo5221/aktiermakinere#readme",
+  "description": ""
 }
