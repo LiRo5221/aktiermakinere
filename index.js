@@ -8,3 +8,5 @@ function stockPriceChanged(data) {
   console.log(data);
 }
 
+
+
