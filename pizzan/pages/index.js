@@ -6,7 +6,10 @@ export default function Home() {
     <body>
       <label for="aktie">Aktie</label>
       <input type="text" id="aktie" name="aktie"></input>
-      z
+      <button onclick="getakt()">Submit</button>
+      <script>
+        
+      </script>
     </body>
 
   )

@@ -1,6 +1,15 @@
 const React = require('react');
 const StockSocket = require("stocksocket");
-var searched = ('TSLA');
+var searched = ("");
+var useConsole = true
+const prompt = require("prompt-sync")({ sigint: true });
+
+if(useConsole === true){
+  const prompt = require("prompt-sync")({ sigint: true });
+  const aktie = prompt("vilken aktie");
+  console.log(`aktie = ${aktie}`);
+  searched = aktie
+}
 
 StockSocket.addTicker(searched, stockPriceChanged);
 

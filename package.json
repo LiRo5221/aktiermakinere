@@ -1,12 +1,12 @@
 {
   "dependencies": {
     "next": "^12.1.0",
+    "prompt-sync": "^4.2.0",
     "stocksocket": "^2.1.2"
   },
   "name": "aktiermakinere",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
