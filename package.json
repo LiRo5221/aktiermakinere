@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "next": "^12.1.0",
     "stocksocket": "^2.1.2"
   }
 }
