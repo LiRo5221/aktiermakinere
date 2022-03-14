@@ -3,8 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-   <body>
-     <!DOCTYPE html>
+   
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
