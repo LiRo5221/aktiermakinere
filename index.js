@@ -1,5 +1,3 @@
-console.log('whashd')
+console.log('hello world')
 
-
-
-hwhwh
+ log@console..((((((3=8)))))))
