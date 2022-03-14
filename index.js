@@ -1,2 +1,3 @@
 console.log('hello world')
-cssssssss
+
+ log@console..((((((3=8)))))))
