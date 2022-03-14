@@ -1,26 +1,8 @@
+const StockSocket = require("stocksocket");
 
+StockSocket.addTicker("TSLA", stockPriceChanged);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-for(var i = 0; i<100; i++)
-{
-if(i % 15 == 0)console.log("FizzBuzz");
-if(i % 5 == 0)console.log("Fizz");
-if(i % 3 == 0)console.log("Buzz");
-else console.log(i);
-
+function stockPriceChanged(data) {
+  //Choose what to do with your data as it comes in.
+  console.log(data);
 }
