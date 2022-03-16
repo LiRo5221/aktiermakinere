@@ -4,6 +4,7 @@ var searched = ("");
 var useConsole = true
 const prompt = require("prompt-sync")({ sigint: true });
 
+// reserv istället för att använda webbsidan eftersom vi hade slut på tid
 if(useConsole === true){
   const prompt = require("prompt-sync")({ sigint: true });
   const aktie = prompt("vilken aktie");
